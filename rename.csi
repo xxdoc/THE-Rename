@@ -1,0 +1,17 @@
+[History]
+B0=THERename/RENAME
+B1=THERename/RENAME/FRenameList
+B2=THERename/RENAME/RenameManually
+B3=THERename/RENAME/StartRename
+B4=THERename/RENAME/Command12_Click
+B5=THERename/RENAME/Command2_Click
+B6=THERename/RENAME/Form_Load
+B7=THERename/RENAME/HTMLReport_Click
+B8=THERename/RENAME/ListView1_Click
+B9=THERename/RENAME/ListView1_OLEDragDrop
+B10=THERename/RENAME/madd_Click
+B11=THERename/RENAME/mchgattdir_Click
+B12=THERename/RENAME/mcreatefold_Click
+B13=THERename/RENAME/mdelrep_Click
+B14=THERename/RENAME/mdelete_Click
+N0=THERename/StrDelete/FileError

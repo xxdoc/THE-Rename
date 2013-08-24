@@ -1,0 +1,5 @@
+REGEDIT4
+[HKEY_CLASSES_ROOT\*\Shell\BinaryView]
+@="THE Rename"
+[HKEY_CLASSES_ROOT\*\Shell\BinaryView\command]
+@="d:\\the rename 17-08-99\\rename.exe %1"

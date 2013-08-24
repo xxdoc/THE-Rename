@@ -1,0 +1,38 @@
+THE Rename - Version 2.1.4 - DonationWare by Herve Thouzard - November 2002
+
+
+Description :
+
+This program allows you to rename simply and quickly files with many options. 
+You can add counters (in decimal, hexadecimal and octal), search and replace 
+text or characters, replace prefix with file's content, convert names to upper 
+or lower cases, invert letters, invert cases, replace name with system date and 
+time or with file's time and date. You can also add folder's name. Program 
+supports long file names. You can rename your MP3, VQF, OGG, WMA files with their 
+internal tags. You can also rename pictures with their width and height. For
+pictures that include information (such as photos made by digital cameras), 
+THE Rename can use EXIF tags to rename files and change their date and time.
+
+You can act separatly on prefix and extension. You can call program from
+Windows's Explorer and make drag and drop with it. Keep trace of your favorites
+directories. You can rename or copy files. Possibility to undo last operation.
+Create also batch file to rename files (also available for undo).
+
+Enable you to change files date, time and attributes. Have a kind of language so
+that you can rename files exactly as you want. Inline help available. Include the
+possiblity to rename files from a list.
+
+You can also rename files according to rules.
+
+
+Download link :
+http://www.herve-thouzard.com/therename.zip
+
+Homepage and mailing list :
+http://www.herve-thouzard.com/therename.phtml
+
+NewsGroup :
+news://news.zoo-logique.org/therename
+
+Donation :
+https://www.yaskifo.com/order.asp?ID=106302

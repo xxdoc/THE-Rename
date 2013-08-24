@@ -1,0 +1,142 @@
+    Dim Status As String
+
+    If Msg = WM_MENUSELECT Then     'Only message for this demo
+        Select Case wParam And &HFFFF&
+            Case 1
+             Status = "File menu"
+            Case 2
+             Status = "Open a file containing settings to rename files"
+            Case 3
+             Status = "Save the settings to a file"
+            Case 4
+             Status = "Save the settings with a new filename"
+            Case 6
+             Status = "Print directory's content to current printer, see the option to select a short or long report"
+            Case 7
+             Status = "Launch the Windows File Find program, remember, you can drop files to THE Rename from this program"
+            Case 8
+             Status = "Search for the biggest counter in the curent files"
+            Case 10
+             Status = "Exit THE Rename"
+            Case 11
+             Status = "Edit menu"
+            Case 12
+             Status = "Search and Replace strings and/or characters in prefix"
+            Case 13
+             Status = "Search and Replace strings and/or characters in the extension"
+            Case 15
+             Status = "Undo the last rename operation. Can't operate if you rename files or change directory"
+            Case 17
+             Status = "Modify creation's date,last access & last modification's date for files. You can also modify the timestamp"
+            Case 18
+             Status = "This will allow you to modify the Hidden/System/Archive and Read Only attributes of files"
+            Case 20, 66
+             Status = "Select ALL the files from the files list"
+            Case 21, 67
+             Status = "Unselect files"
+            Case 22, 68
+             Status = "Invert the files selection"
+            Case 23, 69
+             Status = "Select file by step"
+            Case 24
+             Status = "View menu"
+            Case 25
+             Status = "Refresh THE Rename files list and directory list"
+            Case 27
+             Status = "Modify THE Rename's option"
+            Case 28
+             Status = "Show you some information about THE Rename"
+            Case 30
+             Status = "Open the history window where you could see all the rename operations of the current session"
+            Case 31
+             Status = "Run menu"
+            Case 32, 71
+             Status = "Start to rename files. Don't forget to select some files and options"
+            Case 33, 72
+             Status = "Preview what files names will be without renaming them"
+            Case 34, 73
+             Status = "Rename files manually"
+            Case 36
+             Status = "Select or not file of the sub directories"
+            Case 37
+             Status = "Disk menu"
+            Case 38
+             Status = "Format drives and floppy"
+            Case 39
+             Status = "Set volume label"
+            Case 41
+             Status = "It will open the standard window to assign a letter to an UNC path"
+            Case 42
+             Status = "This option will call the standard window to disconnect from a mapped drive."
+            Case 43
+             Status = "Your favorites menu"
+            Case 44
+             Status = "Add the current directory to the list of your favorites."
+            Case 45
+             Status = "Let you organize your favorites"
+            Case 49
+             Status = "Action menu"
+            Case 50
+             Status = "Send files to the recycle bin. Delete them permanently if you press Shift"
+            Case 51
+             Status = "Open the current file with it's associated program"
+            Case 52
+             Status = "Show file's properties"
+            Case 53
+             Status = "Print file with it's associated program"
+            Case 54
+             Status = "Launch the Windows Execute dialog"
+            Case 55
+             Status = "Launch the Windows Explorer program"
+            Case 57
+             Status = "Search for file from the list"
+            Case 58
+             Status = "Remove the selected file from the list"
+            Case 59
+             Status = "Add files to the list"
+            Case 60
+             Status = "Copy files names to the clipboard"
+            Case 62
+             Status = "Move to the first file in the list"
+            Case 63
+             Status = "Move to the file in the middle of the list"
+            Case 64
+             Status = "Move to the last file of the list"
+            Case 75
+             Status = "Copy current file's selection or directory to the bin. Previous content is deleted. Files or directories will not be removed from their original place."
+            Case 76
+             Status = "Add  current file's selection or directory to the bin without deleting it's content. Files or directories will not be removed from their original place."
+            Case 78
+             Status = "Cut current file's selection or directory to the bin. Previous content is deleted. Files or directories will be removed from their original place."
+            Case 79
+             Status = "Add  current file's selection or directory to the bin without deleting it's content. Files or directories will be removed from their original place."
+            Case 81
+             Status = "This will copy bin's content in the current directory and will empty the bin."
+            Case 82
+             Status = "This will copy bin's content in the current directory and will not empty the bin"
+            Case 84
+             Status = "This option will remove bin's content."
+            Case 86
+             Status = "This will open a new window where you can organize bin's content and copy files or directories."
+            Case 88
+             Status = "This will open the help file"
+            Case 90
+             Status = "This will open the About box"
+            Case SC_RESTORE
+                Status = "Restore window to normal position and size"
+            Case SC_MOVE
+                Status = "Move the window using the keyboard"
+            Case SC_SIZE
+                Status = "Size the window using the keyboard"
+            Case SC_MINIMIZE
+                Status = "Minimize the window"
+            Case SC_MAXIMIZE
+                Status = "Maximize the window"
+            Case SC_CLOSE
+                Status = "Close this window and terminate this program"
+            Case Else
+                Status = ""
+        End Select
+        état.Panels(1).Text = Status
+    End If
+    Result = Subclass1.CallWndProc(Msg, wParam, lParam)

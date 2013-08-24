@@ -1,0 +1,141 @@
+Ajouts à la version 2.0c
+------------------------
+01/08/2001	Ajout de l'option Automatically remove starting spaces (Onglet Other), et de "Automatically select all files" (onglet Lists)
+02/08/2001	Ajout de la commande <CounterEx>
+04/08/2001	Ajout de 2 options "Use a default file for cyclic selections" et "Use a default file for abbreviations"
+06/08/2001	Ajout de 4 commandes dans le Free Form : <PRPrevFileOldName> <PRPrevFileNewName> <EXPrevFileOldName> <EXPrevFileNewName>
+09/08/2001	Modification de la fenêtre "Create folders with name" de manière à ce qu'on puisse sélectionner une partie du nom pour créer les répertoires
+03/09/2001	Dans l'option "Rename from a list", on peut maintenant faire du drag and drop entre la liste des fichiers et la liste de l'option
+08/09/2011	Ajout d'une fenêtre "view log" permettant de voir le fichier log et permettant d'annuler des rename. Attention, dans le menu Help, l'option "The rename on the web" a été supprimé et dans view, sous "Hisotry", j'ai rajouté "view log file..."
+10/09/2001	Ajout d'options permettant de changer la casse des tags MP3 et VQF durant leur lecture et restitution à l'utilisateur
+10/09/2001	Ajout dans la fenêtre de preview du bouton "Rename" permettant de lancer le renommage des fichiers
+11/09/2001	Correction de l'erreur inattendue 5003 du aux images avec une taille à zéro octets.
+11/09/2001	Possibilité de saisir une date manuellement lorsque l'on veut modifier la date et l'heure des fichiers (nouvelle fenêtre)
+11/09/2001	Ajout d'une option permettant de formatter les numéros de pistes des MP3 sur un nombre donné de chiffres
+13/09/2001	Correction d'un gros beug dans la procédure Natural Sort
+13/09/2001	Ajout des commandes <PRModifyCounter,1,4,0> et <EXModifyCounter,1,4,0>
+
+
+Ajouts à la version 2.0d
+------------------------
+03/10/2001	Possibilité de traiter les fichiers ogg
+03/10/2001	Correction d'un beug dans la gestion des fichiers vqf qui n'étaient pas traités par la commande "modify prefix"
+04/10/2001	Possibilité de prévisualiser les tags des fichiers ogg et vqf
+04/10/2001	Possibilité d'exporter les tag des mp3,vqf et ogg dans un fichier style csv.
+08/10/2001	Correction d'un beug dans le chargement d'un fichier de settings (le mode récursif n'était pas restauré)
+19/10/2001	Correction d'un beug dans l'ajout de la taille des fichiers
+19/10/2001	Correction d'un beug dans le traitement de fichiers en très grand nombre
+02/11/2001	Gestion des touches de curseur sur la fenêtre FViewPict pour passer d'une image à une autre (droite gauche haut bas home end)
+06/11/2001	Correction d'un beug pour les utilisateurs Koréens/Chinois et Japonnais. Modification des messages d'erreurs pour les fichiers log et undo
+09/11/2001	Lorsqu'on décoche l'option permettant d'utiliser un fichier d'abbréviations, vérifier s'il n'y a pas des abbréviations de chargées et proposer de les supprimer.
+12/11/2001	Ajout de la commande <OggGetUnknowTags,Format,Séparateur>, tips, le programme essayes de lire la clé "OggTagSeparator" de la base de registres pour déterminer quel séparateur utiliser entre les champs.
+		Paramètres :
+			Format : 1=Tag et valeur
+				 2=Tag seulement
+				 3=Valeur seulement
+			Séparateur : Dans le cas ou format=1 indique le séparateur à utiliser entre le tag et sa valeur, par exemple =
+			
+		Ajout de la commande <OggGetAllTags,Format, Séparateur>, même paramètres que la commande <OggGetUnknowTags>
+13/11/2001	Ajout des commandes 
+			<PRInsert,Pos,Text>
+			<EXInsert,Pos,Text>
+			<PRRemove,FromPos,ToPos>
+			<EXRemove,FromPos,ToPos>
+			<PRDeleteText,Text,Start,Count,MatchCase>
+			<EXDeleteText,Text,Start,Count,MatchCase>
+			<OggTagByName,NomTag,Format,Separateur,[Literal],[Position]>
+			<OggTagByPosition,Position,Format,Separateur,[Literal],[Position]>
+				Les 2 derniers paramètres des 2 dernières commandes sont identiques aux paramètres des commandes pour les MP3
+14/11/2001	Ajout de l'option "Remove empty tags from list on tab" permettant dans la liste de prévisualisation des tags des MP3 de n'afficher que les tags remplis
+		Correction dans la fenêtre de preview, le bouton "Rename" n'est plus visible pendant que le programme calcule les noms des fichiers
+		Ajout de clés cachées :
+			RefreshRate
+			DisplayRenMsg
+			ShowPreviewList
+		Ajout dans la barre d'état de la fenêtre de preview, lorsque les noms des fichiers ont fini d'être calculés, du nombre total de fichiers et du numéro de fichier dans la barre d'état lorsqu'on clique sur un fichier
+20/12/2001	Ajout au Free form des commandes :
+			SelectedFilesCount
+			NonSelectedFilesCount
+			TotalFilesCount
+
+
+
+Ajouts à la version 2.0e
+------------------------		
+05/01/2001	Possibilité de visualiser des fichiers textes et de les dropper depuis la liste des fichiers
+		Pour les favoris :
+			Changement de look
+			Possibilité de chercher un ou des fichiers dans les répertoires pointés par les favoris
+			Possibilité d'executer une commande dans chaque répertoire
+			Possibilité de recréer les répertoires qui n'existent plus
+			Possibilité d'imprimer la liste des favoris
+14/01/2002	Correction d'un beug dans <P1>, <P2>.... et dans <PRToken> et <ExToken>
+		Possibilité d'executer une commande sur les fichiers
+15/01/2002	Correction d'un beug pour les utilisateurs chinois, lorsqu'on choisissait de créer un fichier
+		bat pour renommer les fichiers, il y avait des zéros binaires dans ce fichier.
+		Correction d'un bug, lorsqu'on utilisait la commande "Copy name", sous Windows 2000
+		le ou les noms ne se copiaient pas toujours. 
+25/01/2002	Possibilité de créer des compteurs en Romain dans "Modify Prefix" et "Modify Extension"
+		Ajout de la command <RomanCounter>		
+		Correction d'un beug dans les abbréviations, on ne pouvait pas remplacer avec rien
+09/03/2002	Possibilité de voir les infos des polices Adobes d'extension AFM
+		Correction d'un beug dans l'option "Create folders with names"
+		Correction d'un beug dans la commande <FileDateEx> (problème lorsqu'on voulait utiliser l'heure des fichiers)
+		Ajout des commandes :
+			<AfmFontMetricsVersion>
+			<AfmWeight>
+			<AfmNotice>
+			<AfmMetricsSets>
+			<AfmFullName>
+			<AfmFontVersion>
+			<AfmFontName>
+			<AfmFamilyName>
+			<AfmEncodingScheme>
+			<AfmCharacterSet>
+			<AfmCopyright>
+			<AfmCreationDate>
+			<AfmUniqueID>
+			<AfmVMusage>
+		Possiblité, dans l'onglet "Multimedia" (dans les options) de choisir comment les images sont prévisualisées
+10/04/2002	Modifs de l'installateur et possibilité de faire "Démarrer/Executer/rename"
+19/04/2002	Correction d'un beug pour les commandes <PRModifyCounter>, <PRRefomartNumber>, <EXModifyCounter>, <EXRefomartNumber>
+		Correction d'un beug dans la commande <html>
+		
+Ajouts à la version 2.0f
+------------------------		
+26/04/2001	Correction d'un beug lié à l'utilisation des cyclic.
+10/06/2002	Correction d'un beug dans les commandes <PrToken> et <ExToken>
+		Correction d'un beug dans la fenêtre de prévisualisation des images
+		Modifications dans l'interface de la fenêtre principale, certaines frame sont à plat ainsi que les boutons
+26/06/2002	Modification pour l'option permettant d'ajouter les informations sur l'image, le format à utiliser est directement saisissable et modifiable depuis la fenêtre principale
+		Changement de n° de version, passage à la version 2.1 dû à la possibilité d'utiliser les tags EXIF des images
+21/07/2002	Ajout de la commande <PrBeforeEx> qui permet de récupérer ce qui se trouve avant une expression et de le formater
+27/07/2002	Possibilité, pour les commandes <F1>...<Fn>, <P1>...<Pn> et <E1> à <En>, d'utiliser en premier paramètre + ou - pour récupérer ce qui est après ou avant le token voulu
+		Ajout des commandes :
+			<ExifAperture>, <ExifBrightness>, <ExifCompressedBitsPerPixel>, <ExifCopyright>, <ExifDateTime>, <ExifDateTimeDigitized>, <ExifDateTimeOriginal>, <ExifVersion>, <ExifExposureBias>, <ExifExposureProgram>, <ExifExposureTime>, <ExifFirmwareVersion>, <ExifFlash>, <ExifFNumber>, <ExifFocalLength>, <ExifFocalPlaneResolutionUnit>, <ExifFocalPlaneXResolution>, <ExifFocalPlaneYResolution>, <ExifImageDescription>, <ExifImageHeight>, <ExifImageWidth>, <ExifISOSpeedRatings>, <ExifMake>, <ExifMaxAperture>, <ExifMeteringMode>, <ExifModel>, <ExifOrientation>, <ExifRelatedSoundFile>, <ExifResolutionUnit>, <ExifShutterSpeed>, <ExifSubjectDistance>, <ExifWhiteBalance>, <ExifXResolution>, <ExifYResolution>
+		Le dernier filtre de fichiers utilisé est sauvegardé et restoré.
+27/08/2002	Correction d'un beug lorsqu'on fait un double click pour renommer un fichier, si on donnait le même nom qu'un fichier existant le fichier n'était pas renommé et la liste était fausse.
+		Sauvegarde de la cinquième colonne de la liste des fichiers.
+		Lorsqu'on utilisait l'option AutoSave et qu'on appelait le programme depuis l'explorateur de Windows, les préférences n'étaient pas restorées, beug corrigé.
+06/09/2002	Ajout de Shift F9 pour revenir un onglet en arrière		
+07/09/2002	La liste des commandes du free form a été remplacée par une liste hiérarchique pour plus de lisibilité
+18/09/2002	Mise à jour des 2 DLL (therename.dll et renogg.dll) 
+		Changement d'icone, merci à Tony
+28/09/2002	Possibilité d'utiliser F9 et Shift F9 dans toutes les fenêtres proposant des onglets pour changer d'onglet
+		Ajout des fichiers WMA. THE Rename peut renommer les fichiers WMA à partir de leurs tags
+		Le calendrier utilisé dans le programme a été changé.
+03/10/2002	Correction d'un beug dans la sauvegarde des règles
+
+
+
+Ajouts à la version 2.1
+-----------------------
+22/10/2002	Ajout de 2 options pour le séparateur à utiliser dans les dates et heures EXIF
+		Correction d'un beug, lorsqu'on changeait la date et l'heure d'image au format EXIF, si une image n'avait
+		pas d'infos EXIF, le programme se plantait.
+24/10/2002	Correction d'un beug avec les onglets et F9 et Shift F9		
+25/10/2002	Lorsqu'on utilisait l'option permettant de sélectionner tous les fichiers à l'ouverture d'un répertoire
+		la barre se statut n'était pas à jour, on indiquait pas le nombre de fichiers sélectionnés.
+		Les options sont sauvegardées, non plus à la fin du programme mais dès la fermeture de la fenêtre des options
+		Beug : la taille de la fenêtre n'était pas restorée à la prochaine ouverture
+		

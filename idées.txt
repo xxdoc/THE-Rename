@@ -1,0 +1,18 @@
+Skip all "System, read onyl and hidden files"
+Support for FLAC, MpegPlus and vqf files.
+allmusic.com support: search and export album information from the www.allmusic.com server to tags. 
+Freedb support: get tag information for full MP3 albums in seconds using the CDDB1 Internet server
+M3u playlists: create m3u playlists using the unique Quick Save Playlist feature. 
+
+The authors of the freeware components used in this program:
+
+• HelpRouter by EC Software (http://www.ec-software.com)
+• Audio Tools Library by Jurgen Faul (http://jfaul.de/atl) 
+• FolderTree by Elliott Shevin
+• FileOperator by Glen Why
+
+
+
+Freedb database by Steve Scherf
+Freedb server originally by Ti Kan
+Homepage: http://www.freedb.org

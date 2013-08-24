@@ -1,0 +1,19 @@
+[OPTIONS]
+COMPRESS= 0x0c 
+TITLE=THE Rename Help
+CONTENTS=Help_Index
+COPYRIGHT=© Hervé Thouzard - 1998...2002
+LCID = 0x409 0 0
+
+[WINDOWS]
+main=,,60676,,(214,200,35),
+
+[CONFIG]
+
+[FILES]
+THERENAME.rtf
+
+
+[MAP]
+#include <THERENAME.hh>
+

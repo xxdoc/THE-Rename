@@ -1,0 +1,25 @@
+ÿé'****************************************************************
+' Name: Scroll Credits
+'     ' Description:Scrolls a textbox like ending movie credits
+' By: Dennis James
+'
+' Inputs:None
+' Returns:None
+' Assumes:Save this as Scroll.frx
+¸Easy Scroll
+Author : Dennis James
+Status : FreeWare
+Comments:
+Did it just for the FUN
+To see if I could ?
+Looks kind of COOL 
+I don't look for fun, I CREATE IT !
+ Save Code as Scroll.frm
+Open with VB5 and run it
+
+' Side Effects:None
+'
+'Code provided by Planet Source Code(tm) 'as is', without
+'     warranties as to performance, fitness, merchantability,
+'     and any other warranty (whether expressed or implied).
+'****************************************************************

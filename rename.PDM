@@ -1,0 +1,403 @@
+[Root]
+Most Recent Package=THE Rename
+
+
+[Package|Standard Setup Package 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\WINDOWS\TEMP\MonVb\rename\install
+
+[Package|Standard Setup Package 1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 1|Files Found]
+
+[Package|Standard Setup Package 1|Files Released]
+
+[Package|Standard Setup Package 1|Missing Dependency Information]
+
+[Package|Standard Setup Package 1|Out-of-Date Dependency Information]
+C:\WINDOWS\SYSTEM\MsStkPrp.dll=
+
+[Package|Standard Setup Package 1|Files Added]
+C:\WINDOWS\TEMP\MonVb\rename\FILE_ID.DIZ=
+
+[Package|Standard Setup Package 1|Files Removed]
+
+[Package|Standard Setup Package 1|Files In Project]
+C:\WINDOWS\TEMP\MonVb\rename\rename.exe=Yes
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=Yes
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=Yes
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\SYSTEM\MSCOMCTL.OCX=Yes
+C:\WINDOWS\SYSTEM\ccrpftv.ocx=Yes
+C:\WINDOWS\SYSTEM\MSVBVM50.DLL=Yes
+C:\WINDOWS\SYSTEM\CTL3D32.DLL=Yes
+C:\WINDOWS\SYSTEM\MsStkPrp.dll=Yes
+C:\WINDOWS\SYSTEM\TABCTL32.OCX=Yes
+C:\WINDOWS\TEMP\MonVb\rename\Therename.hlp=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\WINDOWS\TEMP\MonVb\rename\FILE_ID.DIZ=Yes
+
+[Package|Standard Setup Package 1|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 1|Install Locations]
+C:\WINDOWS\TEMP\MonVb\rename\rename.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\ccrpftv.ocx=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSVBVM50.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\CTL3D32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MsStkPrp.dll=$(WinSysPath)
+C:\WINDOWS\SYSTEM\TABCTL32.OCX=$(WinSysPath)
+C:\WINDOWS\TEMP\MonVb\rename\Therename.hlp=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\WINDOWS\TEMP\MonVb\rename\FILE_ID.DIZ=$(AppPath)
+
+[Package|Standard Setup Package 1|Configure Shared Files]
+Applicable=Yes
+C:\WINDOWS\TEMP\MonVb\rename\rename.exe=No
+C:\WINDOWS\TEMP\MonVb\rename\Therename.hlp=No
+C:\WINDOWS\TEMP\MonVb\rename\FILE_ID.DIZ=No
+
+[Package|Standard Setup Package 1|Distribution]
+Type=single
+Size=
+Title=THE Rename
+
+[Package|Standard Setup Package 1|IconGroups]
+Group0=THE Rename
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 1|THE Rename]
+Icon1=rename.exe
+Title1=THE Rename
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup Package 1|Package]
+PackageFolder=C:\WINDOWS\TEMP\MonVb\rename\install
+ProjectFolder=C:\WINDOWS\TEMP\MonVb\rename
+ServerSideCab=
+File1=C:\WINDOWS\TEMP\MonVb\rename\install\setup.exe
+File2=C:\WINDOWS\TEMP\MonVb\rename\install\Setup.Lst
+File3=C:\WINDOWS\TEMP\MonVb\rename\install\rename.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|Dep File 1|Root]
+SubWizProgID=PDWizard.DepPkgSubWiz
+BuildFolder=c:\Progra\VB\THE Rename 17-08-99\install
+
+[Package|Dep File 1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Dep File 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Dep File 1|Files Found]
+CTL3D32.DLL=C:\WINDOWS\SYSTEM\CTL3D32.DLL
+FILE_ID.DIZ=D:\2\MonVb\rename\FILE_ID.DIZ
+kernel.dll=C:\WINDOWS\SYSTEM\kernel.dll
+
+[Package|Dep File 1|Files Released]
+
+[Package|Dep File 1|Missing Dependency Information]
+C:\WINDOWS\SYSTEM\ccrpftv6.ocx=
+C:\WINDOWS\SYSTEM\kernel.dll=
+
+[Package|Dep File 1|Out-of-Date Dependency Information]
+C:\WINDOWS\SYSTEM\MsStkPrp.dll=
+
+[Package|Dep File 1|Files Added]
+d:\the rename 17-08-99\file_id.diz=
+
+[Package|Dep File 1|Files Removed]
+c:\windows\system\msvbvm50.dll=
+
+[Package|Dep File 1|Files In Project]
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=Yes
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=Yes
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\SYSTEM\MSCOMCTL.OCX=Yes
+C:\WINDOWS\SYSTEM\TABCTL32.OCX=Yes
+D:\THE Rename 17-08-99\FILE_ID.DIZ=Yes
+C:\Progra\VB\THE Rename 17-08-99\rename.exe=Yes
+C:\Progra\VB\THE Rename 17-08-99\THERENAME.HLP=Yes
+C:\WINDOWS\SYSTEM\kernel.dll=Yes
+C:\Progra\Sites VB\ccrp\ccrpftv6-10\ccrpftv6.ocx=Yes
+
+[Package|Dep File 1|Configure Registry Files]
+Applicable=No
+
+[Package|Dep File 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Dep File 1|Install Locations]
+C:\WINDOWS\TEMP\MonVb\rename\rename.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\ccrpftv.ocx=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSVBVM50.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\CTL3D32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MsStkPrp.dll=$(WinSysPath)
+C:\WINDOWS\SYSTEM\TABCTL32.OCX=$(WinSysPath)
+C:\WINDOWS\TEMP\MonVb\rename\Therename.hlp=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\WINDOWS\TEMP\MonVb\rename\FILE_ID.DIZ=$(AppPath)
+C:\WINDOWS\rename\rename.exe=$(AppPath)
+C:\WINDOWS\rename\THERENAME.HLP=$(AppPath)
+C:\WINDOWS\rename\FILE_ID.DIZ=$(AppPath)
+C:\WINDOWS\TEMP\rename\rename.exe=$(AppPath)
+C:\WINDOWS\TEMP\rename\Therename.hlp=$(AppPath)
+C:\WINDOWS\TEMP\rename\FILE_ID.DIZ=$(AppPath)
+C:\WINDOWS\TEMP\A copier\rename\rename.exe=$(AppPath)
+C:\WINDOWS\TEMP\A copier\rename\Therename.hlp=$(AppPath)
+C:\WINDOWS\TEMP\A copier\rename\FILE_ID.DIZ=$(AppPath)
+D:\2\MonVb\rename\rename.exe=$(AppPath)
+C:\WINDOWS\TEMP\ccrpftv6-b31\ccrpftv6.ocx=$(WinSysPath)
+D:\2\MonVb\rename\THERENAME.HLP=$(AppPath)
+D:\2\MonVb\rename\FILE_ID.DIZ=$(AppPath)
+C:\WINDOWS\SYSTEM\ccrpftv6.ocx=$(WinSysPath)
+D:\THE Rename 17-08-99\rename.exe=$(AppPath)
+D:\THE Rename 17-08-99\THERENAME.HLP=$(AppPath)
+D:\THE Rename 17-08-99\FILE_ID.DIZ=$(AppPath)
+C:\Progra\ocx\ccrpftv6.ocx=$(WinSysPath)
+C:\Progra\VB\THE Rename 17-08-99\rename.exe=$(AppPath)
+C:\Progra\VB\ocx\ccrpftv6.ocx=$(WinSysPath)
+C:\Progra\VB\THE Rename 17-08-99\THERENAME.HLP=$(AppPath)
+C:\WINDOWS\SYSTEM\kernel.dll=$(WinSysPath)
+C:\Progra\Sites VB\ccrp\ccrpftv6-10\ccrpftv6.ocx=$(AppPath)
+
+[Package|Dep File 1|Configure Shared Files]
+Applicable=Yes
+C:\WINDOWS\TEMP\MonVb\rename\rename.exe=No
+C:\WINDOWS\TEMP\MonVb\rename\Therename.hlp=No
+C:\WINDOWS\TEMP\MonVb\rename\FILE_ID.DIZ=No
+C:\WINDOWS\rename\rename.exe=No
+C:\WINDOWS\rename\THERENAME.HLP=No
+C:\WINDOWS\rename\FILE_ID.DIZ=No
+C:\WINDOWS\TEMP\rename\rename.exe=No
+C:\WINDOWS\TEMP\rename\Therename.hlp=No
+C:\WINDOWS\TEMP\rename\FILE_ID.DIZ=No
+C:\WINDOWS\TEMP\A copier\rename\rename.exe=No
+C:\WINDOWS\TEMP\A copier\rename\Therename.hlp=No
+C:\WINDOWS\TEMP\A copier\rename\FILE_ID.DIZ=No
+D:\2\MonVb\rename\rename.exe=No
+D:\2\MonVb\rename\THERENAME.HLP=No
+D:\2\MonVb\rename\FILE_ID.DIZ=No
+D:\THE Rename 17-08-99\rename.exe=No
+D:\THE Rename 17-08-99\THERENAME.HLP=No
+D:\THE Rename 17-08-99\FILE_ID.DIZ=No
+C:\Progra\VB\THE Rename 17-08-99\rename.exe=No
+C:\Progra\VB\THE Rename 17-08-99\THERENAME.HLP=No
+
+[Package|Dep File 1|Distribution]
+Type=single
+Size=
+Title=THE Rename
+
+[Package|Dep File 1|IconGroups]
+Group0=THE Rename
+PrivateGroup0=Faux
+Parent0=$(Programs)
+
+[Package|Dep File 1|THE Rename]
+Icon1=rename.exe
+Title1=THE Rename
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Dep File 1|DepFile]
+DepCabFile=rename.CAB
+DepCabRun=rename.INF
+DepCabURL=http://www.multimania.com/hervet
+
+[Package|Dep File 1|Package]
+PackageFolder=c:\Progra\VB\THE Rename 17-08-99\install
+ProjectFolder=C:\Progra\VB\THE Rename 17-08-99
+ServerSideCab=
+File1=c:\Progra\VB\THE Rename 17-08-99\install\rename.DEP
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+[Package|THE Rename|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=c:\Progra\VB\THE Rename 17-08-99\install
+
+[Package|THE Rename|Configure DAO ISAMs]
+Applicable=No
+
+[Package|THE Rename|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|THE Rename|Files Found]
+CTL3D32.DLL=C:\WINDOWS\SYSTEM\CTL3D32.DLL
+FILE_ID.DIZ=D:\2\MonVb\rename\FILE_ID.DIZ
+
+[Package|THE Rename|Files Released]
+
+[Package|THE Rename|Missing Dependency Information]
+C:\WINDOWS\SYSTEM\ccrpftv6.ocx=
+
+[Package|THE Rename|Out-of-Date Dependency Information]
+C:\WINDOWS\SYSTEM\MsStkPrp.dll=
+
+[Package|THE Rename|Files Added]
+d:\the rename 17-08-99\file_id.diz=
+
+[Package|THE Rename|Files Removed]
+c:\windows\system\msvbvm50.dll=
+
+[Package|THE Rename|Files In Project]
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=Yes
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=Yes
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=Yes
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\SYSTEM\MSCOMCTL.OCX=Yes
+C:\WINDOWS\SYSTEM\TABCTL32.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+D:\THE Rename 17-08-99\FILE_ID.DIZ=Yes
+C:\Progra\VB\THE Rename 17-08-99\rename.exe=Yes
+C:\Progra\VB\THE Rename 17-08-99\THERENAME.HLP=Yes
+C:\Progra\Sites VB\ccrp\ccrpftv6-10\ccrpftv6.ocx=Yes
+
+[Package|THE Rename|Configure Registry Files]
+Applicable=No
+
+[Package|THE Rename|Configure Remote Servers]
+Applicable=No
+
+[Package|THE Rename|Install Locations]
+C:\WINDOWS\TEMP\MonVb\rename\rename.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\ccrpftv.ocx=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSVBVM50.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\CTL3D32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MsStkPrp.dll=$(WinSysPath)
+C:\WINDOWS\SYSTEM\TABCTL32.OCX=$(WinSysPath)
+C:\WINDOWS\TEMP\MonVb\rename\Therename.hlp=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\WINDOWS\TEMP\MonVb\rename\FILE_ID.DIZ=$(AppPath)
+C:\WINDOWS\rename\rename.exe=$(AppPath)
+C:\WINDOWS\rename\THERENAME.HLP=$(AppPath)
+C:\WINDOWS\rename\FILE_ID.DIZ=$(AppPath)
+C:\WINDOWS\TEMP\rename\rename.exe=$(AppPath)
+C:\WINDOWS\TEMP\rename\Therename.hlp=$(AppPath)
+C:\WINDOWS\TEMP\rename\FILE_ID.DIZ=$(AppPath)
+C:\WINDOWS\TEMP\A copier\rename\rename.exe=$(AppPath)
+C:\WINDOWS\TEMP\A copier\rename\Therename.hlp=$(AppPath)
+C:\WINDOWS\TEMP\A copier\rename\FILE_ID.DIZ=$(AppPath)
+D:\2\MonVb\rename\rename.exe=$(AppPath)
+C:\WINDOWS\TEMP\ccrpftv6-b31\ccrpftv6.ocx=$(WinSysPath)
+D:\2\MonVb\rename\THERENAME.HLP=$(AppPath)
+D:\2\MonVb\rename\FILE_ID.DIZ=$(AppPath)
+C:\WINDOWS\SYSTEM\ccrpftv6.ocx=$(WinSysPath)
+D:\THE Rename 17-08-99\rename.exe=$(AppPath)
+D:\THE Rename 17-08-99\THERENAME.HLP=$(AppPath)
+D:\THE Rename 17-08-99\FILE_ID.DIZ=$(AppPath)
+C:\Progra\ocx\ccrpftv6.ocx=$(WinSysPath)
+C:\Progra\VB\THE Rename 17-08-99\rename.exe=$(AppPath)
+C:\Progra\VB\ocx\ccrpftv6.ocx=$(WinSysPath)
+C:\Progra\VB\THE Rename 17-08-99\THERENAME.HLP=$(AppPath)
+C:\Progra\Sites VB\ccrp\ccrpftv6-10\ccrpftv6.ocx=$(AppPath)
+
+[Package|THE Rename|Configure Shared Files]
+Applicable=Yes
+C:\WINDOWS\TEMP\MonVb\rename\rename.exe=No
+C:\WINDOWS\TEMP\MonVb\rename\Therename.hlp=No
+C:\WINDOWS\TEMP\MonVb\rename\FILE_ID.DIZ=No
+C:\WINDOWS\rename\rename.exe=No
+C:\WINDOWS\rename\THERENAME.HLP=No
+C:\WINDOWS\rename\FILE_ID.DIZ=No
+C:\WINDOWS\TEMP\rename\rename.exe=No
+C:\WINDOWS\TEMP\rename\Therename.hlp=No
+C:\WINDOWS\TEMP\rename\FILE_ID.DIZ=No
+C:\WINDOWS\TEMP\A copier\rename\rename.exe=No
+C:\WINDOWS\TEMP\A copier\rename\Therename.hlp=No
+C:\WINDOWS\TEMP\A copier\rename\FILE_ID.DIZ=No
+D:\2\MonVb\rename\rename.exe=No
+D:\2\MonVb\rename\THERENAME.HLP=No
+D:\2\MonVb\rename\FILE_ID.DIZ=No
+D:\THE Rename 17-08-99\rename.exe=No
+D:\THE Rename 17-08-99\THERENAME.HLP=No
+D:\THE Rename 17-08-99\FILE_ID.DIZ=No
+C:\Progra\VB\THE Rename 17-08-99\rename.exe=No
+C:\Progra\VB\THE Rename 17-08-99\THERENAME.HLP=No
+C:\Progra\Sites VB\ccrp\ccrpftv6-10\ccrpftv6.ocx=No
+
+[Package|THE Rename|Distribution]
+Type=single
+Size=
+Title=THE Rename
+
+[Package|THE Rename|Package]
+PackageFolder=c:\Progra\VB\THE Rename 17-08-99\install
+ProjectFolder=C:\Progra\VB\THE Rename 17-08-99
+ServerSideCab=
+File1=c:\Progra\VB\THE Rename 17-08-99\install\setup.exe
+File2=c:\Progra\VB\THE Rename 17-08-99\install\Setup.Lst
+File3=c:\Progra\VB\THE Rename 17-08-99\install\rename.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+[Package|THE Rename|IconGroups]
+Group0=THE Rename
+PrivateGroup0=Faux
+Parent0=$(Programs)
+
+[Package|THE Rename|THE Rename]
+Icon1=rename.exe
+Title1=THE Rename
+StartIn1=$(AppPath)
+Key1=Icon1

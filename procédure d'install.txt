@@ -1,0 +1,81 @@
+Pour créer l'install de THE Rename :
+
+0) Dans les propriétés du projet ne pas oublier de mettre à jour la date de compilation
+1) Vérifier que VSI est bien installé !
+2) Mettre le projet dans c:\Mes Documents\Visual Studio Projects\vbinstaller1
+3) Mettre les sources de THE Rename dans c:\Progra\VB\THE Rename 17-08-99
+4) Installer le SDK de VSI qui se trouve sur le CD n°24 dans Installer 1.0
+5) Pour créer un sous groupe du menu programme dans le menu démarrer, suivre
+   les instructions suivantes :
+6) Ne pas oubllier les DLL ainsi que de mettre à jour le file_id.diz. Ne
+   pas non plus oublier commands.ini, rules.ini (mettre à blanc) et music.ini
+7) Dans VSI et dans les propriétés de THE Rename, ne pas oublier de mettre
+   à jour le numéro de version.
+8) Avec ORCA ne pas oublier de modifier le "welcome to the the"   
+  
+From:
+                                                            24/11/1999 20:35
+Subject: Re: Visual Studio Installer
+
+Herve...
+
+> Anybody know how to create a sub group in the start menu
+> with the new Visual Studio Installer ? I can only create a shortcut
+> to my program in the main start menu, I can't create a shortcut
+> in Start/Program/My Prog/My Prog
+>
+This problem bit me as well. At first I tried solving it by adding a menu
+named "Programs" under the Start menu, but DON'T do this because it will
+only work on a Windows language that actually uses the word "Programs".
+
+Ready for a workaround? It's not easy - and you'll have to redo it every
+time you build or rebuild the MSI package - but here goes:
+
+    First of all you need ORCA. You don't have it unless you've downloaded
+the Windows Installer SDK, which you can get here:
+http://msdn.microsoft.com/developer/sdk/wininst.asp
+ORCA won't have a shortcut installed in the Start menu, so you'll have to
+start it up through Explorer from wherever you installed the SDK.
+
+After you create the installation (MSI) package in VSI, open the MSI Package
+in
+ORCA.
+- Add the following entry into the Directory table (without quotes)
+
+=====
+- Directory: "ProgramMenuFolder"
+- Directory_Parent: "TARGETDIR"
+- DefaultDir: "."
+====
+
+Next, find your shortcut in the Shortcut table and change the "Directory_"
+entry to "ProgramMenuFolder".
+
+Now when you save the package the installation will add your shortcut to the
+Start|Programs menu. If you want to create another directory underneath
+Start|Programs, things get a little more complicated. Read on if you wish to
+do so.
+
+At this point you should have already created a "ProgramMenuFolder"
+directory. Now we need to create a "Start|Programs" subfolder.  Add a row
+in the Directory table. The "Directory" column is a place to create a new
+folder variable. I call mine "AppShortcutFolder". This is just a variable
+for the MSI database. This is not the actual name of the subfolder that
+will appear on users machines. AppShortcutFolder should have
+Directory_Parent =
+ProgramMenuFolder. Next you need to give DefaultDir a name.  Lets call it
+"Herve's Folder".  This is the subfolder that will show up on
+"Start|Programs|Herve's Folder".
+
+Now to the Shortcut table.
+All we need to do is to edit the "Directory_" column of the shortcuts you
+want to put in the subfolder. Change the value of this column to
+AppShortcutFolder (which we defined in the Directory table).
+
+Hope this helps,
+--
+Ben Baird, Microsoft MVP
+Visual Basic Thunder
+http://www.vbthunder.com
+Please keep your programming questions on the newsgroups.
+  

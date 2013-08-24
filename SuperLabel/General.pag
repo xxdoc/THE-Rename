@@ -1,0 +1,256 @@
+VERSION 5.00
+Begin VB.PropertyPage General 
+   Caption         =   "General"
+   ClientHeight    =   3495
+   ClientLeft      =   0
+   ClientTop       =   0
+   ClientWidth     =   5925
+   PaletteMode     =   0  'Halftone
+   ScaleHeight     =   3495
+   ScaleWidth      =   5925
+   Begin VB.ComboBox cmbPosition 
+      Height          =   315
+      Left            =   90
+      Style           =   2  'Dropdown List
+      TabIndex        =   6
+      Top             =   2460
+      Width           =   2655
+   End
+   Begin VB.TextBox txtCaption 
+      Height          =   330
+      Left            =   90
+      TabIndex        =   1
+      Top             =   285
+      Width           =   2700
+   End
+   Begin VB.TextBox txtLabelWidth 
+      Height          =   330
+      Left            =   90
+      TabIndex        =   4
+      Top             =   1620
+      Width           =   2700
+   End
+   Begin VB.CheckBox chkAutoSize 
+      Caption         =   "&AutoSize"
+      Height          =   285
+      Left            =   90
+      TabIndex        =   2
+      Top             =   900
+      Width           =   2700
+   End
+   Begin VB.Label lblPosition 
+      Caption         =   "Label&Position"
+      Height          =   195
+      Left            =   90
+      TabIndex        =   5
+      Top             =   2220
+      Width           =   1335
+   End
+   Begin VB.Label lblCaption 
+      Caption         =   "&Caption:"
+      Height          =   240
+      Left            =   90
+      TabIndex        =   0
+      Top             =   45
+      Width           =   2700
+   End
+   Begin VB.Label lblLabelWidth 
+      Caption         =   "&LabelWidth:"
+      Height          =   240
+      Left            =   90
+      TabIndex        =   3
+      Top             =   1365
+      Width           =   2700
+   End
+End
+Attribute VB_Name = "General"
+Attribute VB_GlobalNameSpace = False
+Attribute VB_Creatable = False
+Attribute VB_PredeclaredId = False
+Attribute VB_Exposed = False
+Option Explicit
+
+' Indique traitement de SelectionChanged en cours
+Private fSelectionChanged As Boolean
+' Indique case à cocher à trois états
+Private f3Etats As Boolean
+
+'---- Initialisations
+Private Sub PropertyPage_Initialize()
+    ' Initialise la liste combinée
+    cmbPosition.Clear
+    cmbPosition.AddItem ltPositionLeft & " - ltPositionLeft"
+    cmbPosition.ItemData(cmbPosition.NewIndex) = ltPositionLeft
+    cmbPosition.AddItem ltPositionRight & " - ltPositionRight"
+    cmbPosition.ItemData(cmbPosition.NewIndex) = ltPositionRight
+    cmbPosition.AddItem ltPositionTop & " - ltPositionTop"
+    cmbPosition.ItemData(cmbPosition.NewIndex) = ltPositionTop
+    cmbPosition.AddItem ltPositionBottom & " - ltPositionBottom"
+    cmbPosition.ItemData(cmbPosition.NewIndex) = ltPositionBottom
+End Sub
+
+'---- Changement de libellé
+Private Sub txtCaption_Change()
+    If Not fSelectionChanged Then
+        Changed = True
+        If chkAutoSize = vbChecked Then txtLabelWidth = ""
+    End If
+End Sub
+
+'---- Changement de LabelWidth
+Private Sub txtLabelWidth_Change()
+    If Not fSelectionChanged Then
+        ' Si changement manuel de LabelWidth, retire AutoSize
+        If txtLabelWidth <> "" Then chkAutoSize = vbUnchecked
+        Changed = True
+    End If
+End Sub
+
+'---- Changement AutoSize
+Private Sub chkAutoSize_Click()
+    Static iDerVal As Integer
+    If Not fSelectionChanged Then
+        ' Gestion des trois états
+        If f3Etats Then
+            If iDerVal = vbChecked Then
+                chkAutoSize = vbGrayed
+            End If
+            iDerVal = chkAutoSize
+        End If
+        ' Supprime LabelWidth si AutoSize
+        If chkAutoSize = vbChecked Then txtLabelWidth = ""
+        Changed = True
+    End If
+End Sub
+
+'---- Changement de Position
+Private Sub cmbPosition_Click()
+    If Not fSelectionChanged Then
+        Changed = True
+    End If
+End Sub
+
+'---- Prise en compte des modifications
+Private Sub PropertyPage_ApplyChanges()
+    On Error Resume Next
+    If SelectedControls.Count = 1 Then
+        ' Un seul contrôle sélectionné, prend simplement les valeurs
+        SelectedControls(0).Caption = txtCaption
+        SelectedControls(0).AutoSize = (chkAutoSize = vbChecked)
+        If txtLabelWidth <> "" Then SelectedControls(0).LabelWidth = txtLabelWidth
+        With cmbPosition
+            If .ItemData(.ListIndex) <> -1 Then
+                SelectedControls(0).LabelPosition = .ItemData(.ListIndex)
+            End If
+        End With
+    
+    Else
+        ' Plusieurs contrôles sélectionnés
+        Dim c As Object
+        If txtLabelWidth <> "" Then
+            ' Modifie LabelWidth
+            For Each c In SelectedControls
+                c.LabelWidth = txtLabelWidth
+            Next
+        End If
+        
+        If chkAutoSize <> vbGrayed Then
+            ' Modifie AutoSize
+            For Each c In SelectedControls
+                c.AutoSize = (chkAutoSize = vbChecked)
+            Next
+        End If
+    End If
+End Sub
+
+'---- Changement de page
+Private Sub PropertyPage_SelectionChanged()
+    Dim i As Integer
+    fSelectionChanged = True
+    f3Etats = False
+    
+    If SelectedControls.Count = 1 Then
+        ' Un seul contrôle sélectionné, prend simplement les valeurs
+        txtCaption.Enabled = True
+        lblCaption.Enabled = True
+        txtCaption = SelectedControls(0).Caption
+        chkAutoSize = (SelectedControls(0).AutoSize And vbChecked)
+        txtLabelWidth = SelectedControls(0).LabelWidth
+        lblPosition.Enabled = True
+        With cmbPosition
+            .Enabled = True
+            .ListIndex = -1
+            For i = 0 To .ListCount - 1
+                If .ItemData(i) = SelectedControls(0).LabelPosition Then
+                    .ListIndex = i
+                    Exit For
+                End If
+            Next
+        End With
+
+    Else
+        ' Plusieurs contrôles sélectionnés
+        Dim fIdent As Boolean
+        
+        ' Rend Caption inopérant
+        txtCaption = ""
+        txtCaption.Enabled = False
+        lblCaption.Enabled = False
+
+        ' Traite LabelWidth
+        Dim l As Single
+        l = SelectedControls(0).LabelWidth
+        fIdent = True
+        ' Regarde si tous les contrôles ont la même valeur pour LabelWidth
+        For i = 1 To SelectedControls.Count - 1
+            If l <> SelectedControls(i).LabelWidth Then
+                fIdent = False
+                Exit For
+            End If
+        Next
+        If fIdent Then
+            txtLabelWidth = l
+        Else
+            txtLabelWidth = ""
+        End If
+        
+        ' Traite AutoSize
+        Dim a As Integer
+        a = (SelectedControls(0).AutoSize And vbChecked)
+        fIdent = True
+        ' Regarde si tous les contrôles ont la même valeur pour AutoSize
+        For i = 1 To SelectedControls.Count - 1
+            If a <> (SelectedControls(i).AutoSize And vbChecked) Then
+                fIdent = False
+                Exit For
+            End If
+        Next
+        If fIdent Then
+            chkAutoSize.Value = a
+        Else
+            chkAutoSize.Value = vbGrayed
+            f3Etats = True
+        End If
+    
+        ' Rend Position inopérant
+        lblPosition.Enabled = False
+        cmbPosition.Enabled = False
+        cmbPosition.ListIndex = -1
+    End If
+    
+    fSelectionChanged = False
+End Sub
+
+'---- Accès direct à la propriété
+Private Sub PropertyPage_EditProperty(PropertyName As String)
+    Select Case PropertyName
+        Case "Caption"
+            txtCaption.SetFocus
+        Case "AutoSize"
+            chkAutoSize.SetFocus
+        Case "LabelWidth"
+            txtLabelWidth.SetFocus
+        Case "Position"
+            cmbPosition.SetFocus
+    End Select
+End Sub

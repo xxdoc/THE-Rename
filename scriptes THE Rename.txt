@@ -1,0 +1,55 @@
+- Possiblité de lancer les scriptes avant et/ou après rennomage
+- Mettre les scriptes dans des fichiers d'extension TRS (THE Rename Script)
+- Rajouter un menu "Script"
+	New Script
+	Open Script
+	Options (avec possibilité de choisir un programme, style UltraEdit
+		 pour taper les commandes (en fait on n'utilise pas le
+		 programme qui serait fournit par THE Rename pour taper
+		 les scriptes)
+	Run
+	MRU
+	
+- Faire un éditeur de scriptes mais externe à THE Rename, sous la forme d'un
+  exe autonome.
+- Possibilité de soit lancer le script sans que THE Rename renomme les fichiers
+  (mais l'utilisateur s'en sert pour sélectionner les fichiers et pour accéder
+  aux fonctions de THE Rename), soit de lancer le scripte lorsque THE Rename
+  est en trin de renommer les fichiers.
+	
+Donner les accès suivants :
+---------------------------
+- Nombre total de fichiers (non sélectionnés)
+- Nombre total de fichiers sélectionnés.
+- Indice du fichier en cours de traitement
+- Nom Complet du fichier en cours de traitement (chemin + prefixe + extension)
+- Nom du fichier en cours de traitement (prefixe + suffixe)
+- Chemin du fichier en cours de traitement
+- Prefixe du fichier en cours de traitement
+- Extension du fichier en cours de traitement
+- Taille du fichier en cours de traitement
+- Date du fichier en cours de traitement
+- Ses attributs
+- Type, Fichier ou Répertoire
+- Mode en cours (Normal ou récursif)
+- Nouveau nom complet du ficiher (chemin + prefixe + extension)
+- Nouveau nom du fichier (prefixe + extension)
+- Chemin du nouveau fichier
+- Prefixe du nouveau fichier
+- Extension du nouveau fichier
+- Les commandes du free form
+- Possiblité d'utiliser la Recherce et le Remplacement
+- Idem pour les attributs et Dates et Heures.
+- Accès aux favoris
+- Accès aux SHFileOp pour que l'utilisateur puisse lui même renommer les fichiers
+  ou supprimer des fichiers ou copier des fichiers
+- Voir s'il y a certaines fonctions développées dans Rename.cls qui peuvent
+  être utilisées.
+- Accès aux informations des images (disponible dans le free form)
+- Inclure une option qui permette de dire à THE Rename "ok, renomme le
+  fichier" et "non il ne faut pas renommer le fichier".
+- Inclure une option pour modifier le nom du ficiher que THE Rename va renommer
+  (par exemple, l'utilisateur ne veut pas du nom que THE Rename va créer
+  mais en veut un autre)
+- Rajouter une collection (comme dans l'exemple montré dans la première page
+  que j'ai trouvé et parlant des scripting objects)

@@ -1,0 +1,161 @@
+*********************************************************************************************************
+*********************************************************************************************************
+Dans l'aide, pour les commandes de compteurs, rajouter <PRRefomartNumber>
+* Dans l'install, associer les .ren à THE Rename
+* Pourquoi y a t'il un plantage lorsqu'on utilise un fichier cyclic par défaut ?
+* Faire sauter la limite des 20 favoris
+* Inclure les infos sur les MP3 et les WAV
+* Dans la fenêtre d'historique, rajouter un bouton pour copier dans le presse papiers
+* Mettre des wizzards
+* Dans l'option Folder's name rajouter une option "short path name"
+* Rajouter Revert to saved
+* Inclure ce qu'il y a dans Bin à la liste des fichiers à renommer
+* Pour les compteurs, complétion des compteurs vides
+* Option pour recréer une structure de répertoires
+* Ajouter un player de MP3 et Mid
+* Ajouter un éditeur Hexa
+* Avoir la possibilité de changer le brightness des images
+* Inclure une loupe dans la visu des images
+* Option pour créer automatiquement les commandes HTML nécessaires aux images (taille de l'image)
+* Inclure des infos sur les fichiers wav
+* Pour chaque objet disposant d'un menu contextuel, la liste des fichiers par exemple, avoir l'option "Options" qui permette de changer les options de l'objet directement depuis l'objet
+* Sur la fenêtre de preview des images gérer la touche Suppr
+* Utiliser les scripting objects
+* Prendre les fichiers d'un site Internet (A faire avec le contrôle FTP de chez Mabry)
+* Menu Tools et/ou Friends programs.
+* Renommer en prenant modèle sur un répertoire existant
+* Rajouter dans le langage une commande qui rajoute le CRC d'un fichier
+* Possibilité dans les options d'ouvrir un fichier .ren par défaut à l'exécution
+* Rajouter dans le free form " Stack commands "
+* Option pour que lorsqu'on copie des fichiers d'un CD,l'attribut 'Lecture seule' soit supprimé
+* Etoffer l'aide sur les abréviations
+* Option pour importer et exporter les options (préférences), voir à mettre une option pour utiliser un fichier .ini
+* Voir la classe permettant de gérer les .INI, les espaces sont supprimés en fin de chaines
+* Option pour limiter la taille du fichier log et autres fichiers du même genre
+* Option pour voir les tokkens dans une fenêtre
+* Avoir la possibilité de générer un fichier de description pour les images (même préfixe mais avec l'extension .des) et contenant les infos EXIF
+* Renommer depuis une play list
+* Pour GetToken, ajouter un paramètre permettant de préciser si on extrait les tokens depuis le début du nom ou depuis la fin
+* Créer PrTokenEx et ExTokenEx permettant, commme pour les commandes MP3, de ne rien renvoyer ou de renvoyer quelque chose si le token existe
+* Faire le ménage dans StartRename au niveau des abbréviations, c'est n'importe quoi !
+* Menu Tools
+* Pour les commandes <PRCapitalFirst> et <PRCapital>, vérifier qu'il y a bien un séparateur de mots dans les options (idem pour les options dans Combo1)
+* Rechercher tout le code marqué "A optimiser"
+* Dans la fenêtre "Create folders with name", avoir la possibilité de créer le nom du répertoire à partir des tags MP3, OGG, VQF et EXIF
+* Optimiser la gestion des abréviations dans la procédure StartRename
+* Voir pourquoi les abbréviations ne marchent pas avec le free form
+* FMP3.FRM améliorer le double clic sur une commande...
+* Proposer de logger les cut/copy/paste sur les fichiers
+* Voir pourquoi on a un message d'erreurs lorsqu'on utilise l'option "File/Generate HTML Report" avec apparemment beaucoup de fichiers
+* Mettre en place un système de "arrays"
+* Mettre en place un système <Regular,NuméroExpression>
+* Permettre l'execution d'une commande sur les fichiers dans le bag
+* Pour l'execution des commandes dans les favoris, ajouter la possibilité de créer un batch et de tracer les commandes et valeurs renvoyés par les processus dans un fichier
+  changer la listbox en listview
+* Internationalisation du programme
+* Renommer à partir d'un site FTP
+* Ajouter un "Safe mode" qui, même si on n'utilise pas la fenêtre preview, recherche les problèmes éventuels dans les noms de fichiers, AVANT renommage.
+* Eventuellement rajouter dans listview1 une colonne affichant les dimensions des images et les tags des fichiers
+* Ajouter, dans doptions2.frm une listview pour les Ogg et ajouter l'export des tags Ogg.
+* Allow use of the "save-as-text" file that can be generated as output from the Preview Window as INPUT back into the Preview window for subsequent execution. (In my particular case - I'd simply use some text manipulation tool to sort it into reverse order, read it back in and execute it)
+* Dans le menu contextuel des fichiers ou dans la barre d'outils, ajouter 2 options "Move to" et "Copy to" ouvrant une nouvelle fenêtre
+* Dans l'onglet permettant de voir les tags des MP3 ajouter un bouton permettant de choisir entre les tags de version 1 et les tags de version 2
+* Mettre à jour le fichier d'aide pour les raccourcis claviers
+* Intégrer un menu Tools et passer des programmes que j'avais fais en C dans ma DLL (addlf, AlTrim,  Bizarre, CheckSum, Comple,Compte, ConvHtm, Crnl, Cut, Del0, EtoA, Extract, Guillemet, Head, Hex, Locate, LongMax, Lower, RTrim, String, Tabs, Zero, Zerob)
+* Dans le source du programme, ne pas oubiler de mettre à jour les ID du fichier d'aide pour les nouvelles commandes.
+* Je voudrais recommandé quelques ajouts, comme une option de rechecrhe car si on n'a 360000 fannulation, pouvoir affiché unqiuement ceux d'un certaine date ou extension.
+* Lorsque le programme sera dockable, avoir une fenêtre permettant la copie multiple de fichiers et une fenêtre résumant le contenu de "bin"
+* A la refonte du programme, changer les icones de la barre d'outils
+* Passer les préférences dans une classe
+* Dans l'option "Rename from a list", modifier le code des boutons et du DragDrop afin que des fichiers déjà présents ne soient pas ajoutés à la liste
+* Pouvoir limiter la taille et/ou le nombre de fichiers des fichiers log et undo
+* Mettre la liste des favoris (et éventuellement les autres) en drag list
+* A voir : <fileDateEx,1,yyyymmdd>-<filedateex,1,hhmmss>.<curext>
+  il semble que le deuxième <filedateex> ne marche pas.
+* Dans l'aide, pour des commandes comme <prmiddle> spécifier que la première position est 1 et non pas 0.
+* Avoir la possiblité d'utiliser une liste pour renommer des fichiers. Mais une liste qui contient des noms de fichiers pouvant se situer dans plusieurs répertoires différents.
+* Dans "rename from a list" avoir un bouton "edit list" (ou "Free edit"). Possibilité de faire du drag and drop entre la liste de fichiers et l'autre liste.
+* Lors d'un plantage, avoir la possibilité d'envoyer, avec le message d'erreur, les settings, les options et un listing des fichiers
+* Rajouter une fenêtre "Measure text"
+* Historique de TOUTES les commandes tapées dans le free form
+* Permettre d'avoir l'équivalent de P1, P2, P3 mais en mettant directement une expression régulière, par exemple, faire : <Part,reg expr>
+* Sauvegarder la taille et la position de la fenêtre de preview
+* Permettre dans les zones de textes d'utiliser des commandes de substitution comme dans Perl avec des macros prédéfinies.
+* Mettre une option qui permette de ne pas sélectionner le masque choisit, par exemple, si on tape *.txt, ca montre tout ce qui n'est pas txt
+* Option permettant de sauvegarder automatiquement les filtres de sélection tapés dans la combo de la toolbar de la fenêtre principale
+* Option permettant de permuter du texte délimité par un spérateur. Par exemple : 01-02.txt devient 02-01.txt
+* Faire des presets pour la recherche et le remplacement
+* Mettre des commandes de free form permettant de faire tout ce qui se fait par boite de dialogue
+* Prendre un système de dictionnaire, par exemple :
+	pour le répertoire c:\windows\temp, utiliser la ligne de commande ....
+	pour les fichiers jpg, utiliser la ligne de commande ....
+* Rajouter une commande : <PathPartEx,n,left/right,empty>
+* Avoir une option pour supprimer la barre d'outils et/ou la barre de messages
+* Option "Split Number", par exemple 1234 devient 1 234. A la limite, proposer une option du style format
+* commande pour déplacer les fichiers
+* commande pour créer des répertoires
+* Gérer Ctrl + BackSpace dans la textbox du free form.
+* Mettre un bouton de rafraichissement dans la toolbar
+* Voir pour une option de surveillance de répertoire, de déclenchement à certaines heures avec possiblité d'inclure une commande (de free form) sur la ligne de commande ou le nom d'un fichier .ren
+* option pour que dès qu'un fichier arrive sur un répertoire il soit renommé avec un compteur.
+* Convenient way (ie without using Free Form) of quickly inserting text/counter at a given fixed postion in the prefix/extension - only left or right.
+* Ditto above for Text cropping
+* One thing would be nice though, a "remove special characters" preset for pre- and postfix
+* I have a requirement which i think can be done by your Rename but not sure how to overcome the 100 character limit. My need is to rename a series of files (ascii) using the content of each file. These files can be from 5K to 100MB in size. What i would need to do it examine the content until i find an expression or literal lets say "STAMP". Now the next thing to do is get the (X) characters following this literal and use it to rename the file. There are concepts you work with now (mp3 id3) which may be built upon or the file content modified (starting from literal). The original files are in fact spool (printer) files which contain formatted data i.e. CR and LF as well as Form feeds imbedded within the file. Any chance you can help ?
+* Option pour supprimer les images inférieures à une certaine taille
+* Faire un répertoire "home"
+* Utiliser Alt 1 et Alt 2 etc etc pour passer d'un favoris à un autre
+* Ajouter une commande pour virer tout ce qui est numérique
+* Ajouter une commande pour virer tout ce qui n'est pas numérique
+* Pour les deux options ci dessus, utiliser des expressions régulières
+* Export des tags et du répertoire au format XML.
+* pour les fichiers exe com et bat dans le menu contextuel des fichiers faire apparaitre une option "Run with parameters"
+* Pour les dates et heures des fichiers, option : "Subsitute date with today or Yesterday when possible"
+* Option "Auto preview"
+* Option pour mettre le programme dans la traybar
+* Possibilité d'afficher les tailles en octets ou en kilos ou en mega
+* Virer la colonne "Type" du listview des fichiers
+* Dans la fenêtre permettant de gérer les commandes du free form, gérer la touche Suppr pour supprimer une commande
+* Rajouter un wizzard pour le free form
+* Rajouter des commandes, dans le free form pour supprimer des caractères style :
+  <PRDelete,n>
+  <PRDelete,before_expr>
+  <PRDeleteBetween,n,n>
+  <PRDeleteBetweenEx,Expr,Expr>
+  Rajouter carrément une nouvelle option.
+* Voir les codes permettant de faire de l'auto complétion et de la coloration syntaxique.
+
+
+
+Demandes des utilisateurs :
+----------------------------
+
+L'option "set to" fonctionne bien pour l'heure (remise à zéro partout).
+Pour changer la date, le calendrier proposé suffit si on ne recule pas trop
+dans le temps.
+En général, je mets mes fichiers à la date du 01/01/1980... Celà devient
+compliqué avec le calendrier.
+
+
+2. Sur l'onglet "General" des options, si je selectionne "Create an
+undo file" et "Create a log file" (et selectionne bien sur un directory
+pour sauver ces informations), a chaque fois que je presse le
+bouton "Preview" ou "Rename", j'obtiens le message d'erreur
+suivant :
+
+"Error, unable to create the undo file, verify its name and path"
+"Error, unable to create the log file, verify its name and path"
+
+
+2. Include option like paste from clipboard and not always load from a list
+because personally I forgot where I put the little temp files I saved for
+this purpose
+
+And what's about it's new user interface ? Waht do you think of it ?
+[Groeneveld, Willem]  That is quite a change! I missed the folders. Now I've found them back it
+is OK for me. The folders are only used to start working with THERename and after that the
+fileslist is the important selection. The larger fileslist is an improvement. Maybe it's possible to
+make the fileslist one line shorter and use that line for displaying the folder with full pathh (if the
+path is not longer than the line). Then you can alway see at a glance the name of the folder
+you're working in.
+

@@ -1,0 +1,554 @@
+RoboHelp Topic Export file
+23|Organize_your_favorites|Organize your favorites
+23|Add_this_directory_to_your_favorites|Add this directory to your favorites
+23|Your_Favorites_menu|Your Favorites menu
+23|Exit|Exit
+23|Undo_Last_Rename|Undo Last Rename
+23|Information|Information
+23|Options|Options
+23|File_menu|File menu
+23|License_Agreement|License Agreement
+23|How_to_obtain_last_version_and_information|How to obtain last version and information
+23|Requirements|Requirements
+23|Status|Status
+23|Vocabulary|Vocabulary
+23|What_is_THE_Rename|What is THE Rename
+23|Help_Index|Help Index
+23|When_using_Free_Form|When using Free Form
+23|Refresh_file_list|Refresh file list
+23|Stop_process|Stop process
+23|Change_files_attributes|Change files attributes
+23|What_will_be_the_news?|What will be the news?
+23|Suggested_uses_for_THE_Rename|Suggested uses for THE Rename
+23|Example_3|Example 3
+23|Example_2|Example 2
+23|Example_1|Example 1
+23|Conflicts|Conflicts
+23|Others_options|Others options
+23|How_it_works_when_using_Modify_prefix_or_Modify_extension|How it works when using Modify prefix or Modify extension
+23|Contextuel_menu_in_file's_list|Contextuel menu in file's list
+23|Drag_and_Drop_with_Windows_Explorer|Drag and Drop with Windows Explorer
+23|Windows_Explorer_Context_Menu|Windows Explorer Context Menu
+23|Help_menu|Help menu
+23|Print_Directory|Print Directory
+23|Make_recursive_search_to_rename_files|Make recursive search to rename files
+23|Open_THE_Rename_with_settings|Open THE Rename with settings
+23|Find_conflicts|Find conflicts
+23|Preview_the_processe|Preview the processe
+23|Save_as_...|Save as ...
+23|Save_settings|Save settings
+23|Open_settings_...|Open settings ...
+23|Make_multiple_file_selection|Make multiple file selection
+23|Have_your_own_file_filters_selection|Have your own file filters selection
+23|Tell_THE_Rename_what_to_do_when_you_double_click_on_the_files_list|Tell THE Rename what to do when you double click on the files list
+23|How_to_search_for_a_file_in_the_file_list|How to search for a file in the file list
+23|Contextual_menu_in_directories_list|Contextual menu in directories list
+23|Search_high_counter|Search high counter
+23|What's_new?|What's new?
+23|Change_file's_date_and_time|Change file's date and time
+23|find_conflicts_button|find conflicts button
+23|button_save_as|button save as
+23|copy_button|copy button
+23|Print_button|Print button
+23|go_back_to_a_precedent_visited_directory|go back to a precedent visited directory
+23|How_to_define_the_startup_directory|How to define the startup directory
+23|How_to_copy_files_to_multiple_directories|How to copy files to multiple directories
+23|Bin_menu|Bin menu
+23|Disconnect_network_drive|Disconnect network drive
+23|Map_network_drive|Map network drive
+23|Set_volume_label|Set volume label
+23|Format_Drive_and_floppies|Format Drive and floppies
+23|Disk_menu|Disk menu
+23|File_Find...|File Find...
+23|View_history|View history
+23|Change_sort_order_in_the_file_list|Change sort order in the file list
+23|root_button|root button
+23|Up_button_1|Up button
+23|drop_files_button|drop files button
+23|rename_manually_button|rename manually button
+23|preview_button|preview button
+23|start_button|start button
+23|step_button|step button
+23|reverse_order_selection_button|reverse order selection button
+23|unselect_button|unselect button
+23|select_all_button|select all button
+23|Menu_bar|Menu bar
+23|Shortcuts|Shortcuts
+23|Search_and_Replace_in_Prefix_and/or_Extension|Search and Replace in Prefix and/or Extension
+23|conflicts_ba|conflicts ba
+23|preview_-_files_list|preview - files list
+23|preview_-_ok_button|preview - ok button
+23|files_selected|files selected
+23|file_traited|file traited
+23|information_bar|information bar
+23|info_tab|info tab
+23|sample_tab|sample tab
+23|extension_zone|extension zone
+23|prefix_zone|prefix zone
+23|modify_extension_list|modify extension list
+23|modify_prefix_list|modify prefix list
+23|column_headers|column headers
+23|splitter_bar|splitter bar
+23|file_list|file list
+23|directory_list_1|directory list
+23|recursive_button|recursive button
+23|file_filter_button|file filter button
+23|history_button|history button
+23|View_menu|View menu
+23|Recursive_mode|Recursive mode
+23|Preview|Preview
+23|Start|Start
+23|Step|Step
+23|Invert_selection|Invert selection
+23|Unselect|Unselect
+23|Select_All|Select All
+23|Run_menu|Run menu
+23|Select_the_same_option_for_prefix_and_extension|Select the same option for prefix and extension
+23|Drag_some_files_from_Windows_Explorer_to_the_multiple_copy_button|Drag some files from Windows Explorer to the multiple copy button
+23|Bugs|Bugs
+23|Edit_menu|Edit menu
+23|system_time|system time
+23|system_date|system date
+23|number_of_files|number of files
+23|Option_for_prefix|Option for prefix
+23|Toolbar|Toolbar
+23|files_list|files list
+23|Directory_list_2|Directory list
+23|Rename_manually|Rename manually
+23|Toolbar_commands|Toolbar commands
+23|How_to_replace_with_"nothing"_?|How to replace with "nothing" ?
+23|Cyclic_selections|Cyclic selections
+23|How_to_se_counters_with_letters_?|How to se counters with letters ?
+23|How_to_validate_filenames_?|How to validate filenames ?
+23|yéK|yéK
+23|Add_picture's_width_and_height_in_filename|Add picture's width and height in filename
+23|Mapped_drives|Mapped drives
+23|How_to_Create_a_group_of_directories|How to Create a group of directories
+23|Refresh|Refresh
+23|Previous_Tab|Previous Tab
+23|File's_date|File's date
+23|File's_siez__position|File's siez, position
+23|Add_files|Add files
+23|Counter__position|Counter, position
+23|Counter__representation|Counter, representation
+23|Counter____digits|Counter, # digits
+23|Counter__step_value|Counter, step value
+23|Counter_begin's_value|Counter begin's value
+23|Add_a_counter|Add a counter
+23|Files_Filter_scroll_list|Files Filter scroll list
+23|reset_button|reset button
+23|Search_And_Replace_button|Search And Replace button
+23|Log/Undo/|Log/Undo/
+23|inline_help|inline help
+23|Equal_button|Equal button
+23|Option_for_extension|Option for extension
+23|free_from__listbox|free from, listbox
+23|free_from__command_line|free from, command line
+23|clear_button_free_form|clear button free form
+23|Click_this_button_for_sound_options|Click this button for sound options
+23|picture_width_place|picture width place
+23|Picture_width_checkbox|Picture width checkbox
+23|Select_where_you_want_to_add_texte|Select where you want to add texte
+23|Add_text__textbox|Add text, textbox
+23|Add_text_check_box|Add text check box
+23|Cyclic_selection__button|Cyclic selection, button
+23|Repalce_with_text__textbox|Repalce with text, textbox
+23|Replace_with_text_check_bow|Replace with text check bow
+23|Folder's_name_button|Folder's name button
+23|File's_size__position|File's size, position
+23|File's_size|File's size
+23|File's_date__position|File's date, position
+23|Adv_Search__match_case|Adv Search, match case
+23|Adv_search__replace_with_string|Adv search, replace with string
+23|Adv_search__search_string|Adv search, search string
+23|Adv_Search__from_to|Adv Search, from to
+23|Adv_search__search_from_left_or_right|Adv search, search from left or right
+23|rename_with_file's_content|rename with file's content
+23|rename_from_a_list__copy_all_button|rename from a list, copy all button
+23|rename_from_a_list__copy_selected|rename from a list, copy selected
+23|rename_from_alist__save_as_button|rename from alist, save as button
+23|rename_from_a_list|rename from a list
+23|rename_from_a_list__remove_button|rename from a list, remove button
+23|rename_from_a_list__the_list|rename from a list, the list
+23|free_form__file_content|free form, file content
+23|free_from__counter_step|free from, counter step
+23|free_form__counter's_begin|free form, counter's begin
+23|free_form__inline_help|free form, inline help
+23|Preview_window__files_list|Preview window, files list
+23|Free_form__examples|Free form, examples
+23|preview_windows__find_conflicts_button|preview windows, find conflicts button
+23|preview_window_|preview window,
+23|preview_window__copy_button|preview window, copy button
+23|Preview_window__print_button|Preview window, print button
+23|preview_windows__validate_button|preview windows, validate button
+23|Add_Folder's_name|Add Folder's name
+23|Personnal_date_format__default_button|Personnal date format, default button
+23|Personnal_date_format__help_for_one_command|Personnal date format, help for one command
+23|Personnal_date_format__direct_view|Personnal date format, direct view
+23|Personnal_date_format__inline_help|Personnal date format, inline help
+23|Personnal_date_format__list_of_functions|Personnal date format, list of functions
+23|Personal_date_format__command_line|Personal date format, command line
+23|Adv_search_character_list|Adv search character list
+23|Adv_search__replace_all|Adv search, replace all
+23|Clear_default_command's_button|Clear default command's button
+23|Default_command's_button|Default command's button
+23|Delete_button_1|Delete button
+23|Use_now_button|Use now button
+23|Modify_Button_1|Modify Button
+23|Command's_description|Command's description
+23|list_of_commands|list of commands
+23|Organize_Button|Organize Button
+23|Organize_your_commands|Organize your commands
+23|Generate_HTML_report|Generate HTML report
+23|I've_selected_to_add_a_counter_to_my_files_but_I_can't_see_padding_zeros_?|I've selected to add a counter to my files but I can't see padding zeros ?
+23|How_to_find_file_names_longer_than_64_characters?|How to find file names longer than 64 characters?
+23|How_to_add_to_add_music_informations_from_MP3_files?|How to add to add music informations from MP3 files?
+23|How_to_rename_folderrs|How to rename folderrs
+23|Example_5|Example 5
+23|Example_4|Example 4
+23|Replace_all|Replace all
+23|Use_regular_expression|Use regular expression
+23|Modify_button_2|Modify button
+23|Add_button|Add button
+23|Match_case|Match case
+23|starting_position|starting position
+23|substitution_text|substitution text
+23|abreviation_text|abreviation text
+23|Abbreviations|Abbreviations
+23|Regular_Expression__Definition|Regular Expression, Definition
+23|Down_button|Down button
+23|Up_button_2|Up button
+23|Add_to_list_button|Add to list button
+23|Current_command_textbox|Current command textbox
+23|Close_button|Close button
+23|Info_buton|Info buton
+23|General_Tab|General Tab
+23|How_to_remove_registry_keys_created_by_THE_Rename|How to remove registry keys created by THE Rename
+23|How_To_List|How To List
+23|How_to_Remove_numeric_characters?|How to Remove numeric characters?
+23|Create_Folders_with_Names_1|Create Folders with Names
+23|Copy_files_names_in_clipboard_?|Copy files names in clipboard ?
+23|Change_Tab|Change Tab
+23|Natural_Sort|Natural Sort
+23|open_button|open button
+23|save_button|save button
+23|delete_button_2|delete button
+23|list_of...|list of...
+23|both|both
+23|extension_only|extension only
+23|Prefix_only|Prefix only
+23|Number_of_times|Number of times
+23|Commands_for_the_Prefix|Commands for the Prefix
+23|MP3Album|MP3Album
+23|Notes_about_Perl_Compatible_Regular_Expressions|Notes about Perl Compatible Regular Expressions
+23|Reg._Expressions_Tab|Reg. Expressions Tab
+23|RegExp_rename|RegExp rename
+23|Global_Search_&_Replace|Global Search & Replace
+23|Some_other_good_programs|Some other good programs
+23|Why_Some_files_are_named_"Copy_of...."|Why Some files are named "Copy of...."
+23|How_to_move_files_in_the_files_list?|How to move files in the files list?
+23|Lists_Tab|Lists Tab
+23|Pictures_Tab|Pictures Tab
+23|Settings_Tab|Settings Tab
+23|Bin_Tab|Bin Tab
+23|Display_Tab|Display Tab
+23|Other_Tab|Other Tab
+23|Files_Filters_Tab|Files Filters Tab
+23|<PRCapitalFirst_|<PRCapitalFirst>
+23|<PRCapitalEx_|<PRCapitalEx>
+23|<PRCapital_|<PRCapital>
+23|<PRBetween_|<PRBetween>
+23|<PRBefore_|<PRBefore>
+23|<PRAfter_|<PRAfter>
+23|<curprefix_|<curprefix>
+23|General_Commands|General Commands
+23|Commands_on_date_and_time|Commands on date and time
+23|Counters_Commands|Counters Commands
+23|Index_of_all_commands|Index of all commands
+23|Music_commands_for_VQF_files|Music commands for VQF files
+23|Music_commands_for_MP3_files|Music commands for MP3 files
+23|Music_Commands|Music Commands
+23|Commands_on_current_file|Commands on current file
+23|Commands_for_the_Extension|Commands for the Extension
+23|<PRright_|<PRright>
+23|<PRRemMultSp_|<PRRemMultSp>
+23|<PRRemIntSp_|<PRRemIntSp>
+23|<PRRefomartNumber_|<PRRefomartNumber>
+23|<PRPaddRight_|<PRPaddRight>
+23|<PRPaddLeft_|<PRPaddLeft>
+23|<PRMiddle_|<PRMiddle>
+23|<PRltrim_|<PRltrim>
+23|<PRLowerEX_|<PRLowerEX>
+23|<PRLower_|<PRLower>
+23|<PRLength_|<PRLength>
+23|<PRLeft_|<PRLeft>
+23|<PRInvertEX_|<PRInvertEX>
+23|<PRInvert_|<PRInvert>
+23|<PRIfEmpty_|<PRIfEmpty>
+23|<PRCowboys_|<PRCowboys>
+23|<EXCapital_|<EXCapital>
+23|<EXBetween_|<EXBetween>
+23|<EXBefore_|<EXBefore>
+23|<EXAfter_|<EXAfter>
+23|<curext_|<curext>
+23|<ShortName_|<ShortName>
+23|<RandomPrefix_|<RandomPrefix>
+23|<PRUpperEX_|<PRUpperEX>
+23|<PRUpper_|<PRUpper>
+23|<PRtrim_|<PRtrim>
+23|<PRToken_|<PRToken>
+23|<PRToggleEX_|<PRToggleEX>
+23|<PRToggle_|<PRToggle>
+23|<PRSepWords_|<PRSepWords>
+23|<PRSepThousands_|<PRSepThousands>
+23|<PRrtrim_|<PRrtrim>
+23|<EXRemIntSp_|<EXRemIntSp>
+23|<ExRefomartNumber_|<ExRefomartNumber>
+23|<EXPaddRight_|<EXPaddRight>
+23|<EXPaddLeft_|<EXPaddLeft>
+23|<EXMiddle_|<EXMiddle>
+23|<EXltrim_|<EXltrim>
+23|<EXLowerEX_|<EXLowerEX>
+23|<EXLower_|<EXLower>
+23|<EXLength_|<EXLength>
+23|<EXLeft_|<EXLeft>
+23|<EXInvertEX_|<EXInvertEX>
+23|<EXInvert_|<EXInvert>
+23|<ExIfEmpty_|<ExIfEmpty>
+23|<EXCowboys_|<EXCowboys>
+23|<EXCapitalFirst_|<EXCapitalFirst>
+23|<EXCapitalEx_|<EXCapitalEx>
+23|<FileDateEx_|<FileDateEx>
+23|<FileDate_|<FileDate>
+23|<FileContent_|<FileContent>
+23|<FileAttr_|<FileAttr>
+23|<copyfile_|<copyfile>
+23|<EXUpperEX_|<EXUpperEX>
+23|<EXUpper_|<EXUpper>
+23|<EXtrim_|<EXtrim>
+23|<EXToken_|<EXToken>
+23|<EXToggleEX_|<EXToggleEX>
+23|<EXToggle_|<EXToggle>
+23|<EXSepWords_|<EXSepWords>
+23|<EXSepThousands_|<EXSepThousands>
+23|<EXrtrim_|<EXrtrim>
+23|<EXright_|<EXright>
+23|<EXRemMultSp_|<EXRemMultSp>
+23|<MP3ContentGroup_|<MP3ContentGroup>
+23|<MP3Conductor_|<MP3Conductor>
+23|<MP3Composer_|<MP3Composer>
+23|<MP3Comment_|<MP3Comment>
+23|<MP3Bpm_|<MP3Bpm>
+23|<MP3Band_|<MP3Band>
+23|<MP3Artist_|<MP3Artist>
+23|<PathPart_|<PathPart>
+23|<CyclicSelection_|<CyclicSelection>
+23|<ttfname_|<ttfname>
+23|<ImgInfo_|<ImgInfo>
+23|<html_|<html>
+23|<FullLength_|<FullLength>
+23|<FileTime_|<FileTime>
+23|<FileSize_|<FileSize>
+23|<FileLength_|<FileLength>
+23|<MP3MixArtist_|<MP3MixArtist>
+23|<MP3MediaType_|<MP3MediaType>
+23|<MP3Lyricist_|<MP3Lyricist>
+23|<MP3LinkedInformation_|<MP3LinkedInformation>
+23|<MP3Language_|<MP3Language>
+23|<MP3Isrc_|<MP3Isrc>
+23|<MP3InvolvedPeopleList_|<MP3InvolvedPeopleList>
+23|<MP3InitialKey_|<MP3InitialKey>
+23|<MP3GroupIdent_|<MP3GroupIdent>
+23|<MP3Genre_|<MP3Genre>
+23|<MP3FileType_|<MP3FileType>
+23|<MP3FileOwner_|<MP3FileOwner>
+23|<MP3EncryptionMethod_|<MP3EncryptionMethod>
+23|<MP3EncodedBy_|<MP3EncodedBy>
+23|<MP3Date_|<MP3Date>
+23|<MP3Copyright_|<MP3Copyright>
+23|<MP3SynchronizedLyric_|<MP3SynchronizedLyric>
+23|<MP3SubTitle_|<MP3SubTitle>
+23|<MP3SongLength_|<MP3SongLength>
+23|<MP3SoftwareEncodingSettings_|<MP3SoftwareEncodingSettings>
+23|<MP3RecordingDates_|<MP3RecordingDates>
+23|<MP3Publisher_|<MP3Publisher>
+23|<MP3PopulariMeter_|<MP3PopulariMeter>
+23|<MP3PlayListDelay_|<MP3PlayListDelay>
+23|<MP3PartOfASet_|<MP3PartOfASet>
+23|<MP3OriginalYear_|<MP3OriginalYear>
+23|<MP3OriginalLyricist_|<MP3OriginalLyricist>
+23|<MP3OriginalFilename_|<MP3OriginalFilename>
+23|<MP3OriginalArtist_|<MP3OriginalArtist>
+23|<MP3OriginalAlbum_|<MP3OriginalAlbum>
+23|<MP3NetRadioStation_|<MP3NetRadioStation>
+23|<MP3NetRadioOwner_|<MP3NetRadioOwner>
+23|<MP3wwwUserURL_|<MP3wwwUserURL>
+23|<MP3wwwRadioPage_|<MP3wwwRadioPage>
+23|<MP3wwwPublisher_|<MP3wwwPublisher>
+23|<MP3wwwPayment_|<MP3wwwPayment>
+23|<MP3wwwCopyright_|<MP3wwwCopyright>
+23|<MP3wwwCommercialInfo_|<MP3wwwCommercialInfo>
+23|<MP3wwwAudioSource_|<MP3wwwAudioSource>
+23|<MP3wwwAudioFile_|<MP3wwwAudioFile>
+23|<MP3wwwArtist_|<MP3wwwArtist>
+23|<MP3UserText_|<MP3UserText>
+23|<MP3UnsynchronizedLyric_|<MP3UnsynchronizedLyric>
+23|<MP3TrackNumber_|<MP3TrackNumber>
+23|<MP3TotalTracks_|<MP3TotalTracks>
+23|<MP3Title_|<MP3Title>
+23|<MP3Time_|<MP3Time>
+23|<MP3TermsOfUse_|<MP3TermsOfUse>
+23|<systdate_|<systdate>
+23|<xxxxx_|<xxxxx>
+23|<Textcounter_|<Textcounter>
+23|<RandomNumber_|<RandomNumber>
+23|<ooooo_|<ooooo>
+23|<ddddd_|<ddddd>
+23|<VQFTitle_|<VQFTitle>
+23|<VQFSampleRate_|<VQFSampleRate>
+23|<VQFQuality_|<VQFQuality>
+23|<VQFMonoStereo_|<VQFMonoStereo>
+23|<VQFFileSaveAs_|<VQFFileSaveAs>
+23|<VQFCopyright_|<VQFCopyright>
+23|<VQFComment_|<VQFComment>
+23|<VQFBitrate_|<VQFBitrate>
+23|<VQFArtist_|<VQFArtist>
+23|<MP3Year_|<MP3Year>
+23|<PRModifyCounter_|<PRModifyCounter>
+23|<EXPrevFileNewName_|<EXPrevFileNewName>
+23|<EXPrevFileOldName_|<EXPrevFileOldName>
+23|<PRPrevFileNewName_|<PRPrevFileNewName>
+23|<PRPrevFileOldName_|<PRPrevFileOldName>
+23|How_to_create_folders_with_names|How to create folders with names
+23|View_Log_File|View Log File
+23|Folders|Folders
+23|P4CPZA|P4CPZA
+23|<CounterEx_|<CounterEx>
+23|Tabs|Tabs
+23|more_options|more options
+23|Rename_with_rules|Rename with rules
+23|How_to_restore_THE_Rename's_window_to_a_normal_position_?|How to restore THE Rename's window to a normal position ?
+23|<systtime_|<systtime>
+23|<SystDateEx_|<SystDateEx>
+23|OggDescription|OggDescription
+23|OggDate|OggDate
+23|OggCopyRight|OggCopyRight
+23|OggConductor|OggConductor
+23|OggComposer|OggComposer
+23|OggComment|OggComment
+23|OggChannels|OggChannels
+23|OggAverageBitrate|OggAverageBitrate
+23|OggArtist|OggArtist
+23|Note_about_Ogg_files|Note about Ogg files
+23|OggAlbum|OggAlbum
+23|Commands_for_OGG_files|Commands for OGG files
+23|How_to_export_tags_from_musical_files_?|How to export tags from musical files ?
+23|How_to_preview_MP3__VQF_and_OGG_tags_?|How to preview MP3, VQF and OGG tags ?
+23|Create_folders_with_names_2|Create folders with names
+23|<EXModifyCounter_|<EXModifyCounter>
+23|OggSerialNumbe|OggSerialNumbe
+23|OggSampleRate|OggSampleRate
+23|OggPlaytime|OggPlaytime
+23|OggPerformer|OggPerformer
+23|OggOrganization|OggOrganization
+23|OggNumberOfTags|OggNumberOfTags
+23|OggNominalBitrate|OggNominalBitrate
+23|OggLowerBitrate|OggLowerBitrate
+23|OggLocation|OggLocation
+23|OggLength|OggLength
+23|OggISRC|OggISRC
+23|OggGetUnknowTags|OggGetUnknowTags
+23|OggGetAllTags|OggGetAllTags
+23|OggGenre|OggGenre
+23|OggEnsemble|OggEnsemble
+23|OggEncoderVersion|OggEncoderVersion
+23|AOEBFDK|AOEBFDK
+23|How_to_make_THE_Rename_quicker_?|How to make THE Rename quicker ?
+23|ExDeleteText|ExDeleteText
+23|PRDeleteText|PRDeleteText
+23|EXRemove|EXRemove
+23|PRRemove|PRRemove
+23|EXInsert|EXInsert
+23|P4CQUA|P4CQUA
+23|OggVersion|OggVersion
+23|OggVendor|OggVendor
+23|OggUpperBitrate|OggUpperBitrate
+23|OggTrackNumber|OggTrackNumber
+23|OggTotalTracks|OggTotalTracks
+23|OggTitle|OggTitle
+23|OggTagByPosition|OggTagByPosition
+23|OggTagByName|OggTagByName
+23|AfmCreationDate|AfmCreationDate
+23|AfmCopyright|AfmCopyright
+23|AfmCharacterSet|AfmCharacterSet
+23|AfmEncodingScheme|AfmEncodingScheme
+23|AfmFamilyName|AfmFamilyName
+23|AfmFontName|AfmFontName
+23|AfmFontVersion|AfmFontVersion
+23|AfmFullName|AfmFullName
+23|AfmMetricsSets|AfmMetricsSets
+23|AfmNotice|AfmNotice
+23|AfmWeight|AfmWeight
+23|AfmFontMetricsVersion|AfmFontMetricsVersion
+23|P4CQVB|P4CQVB
+23|<RomanCounter_|<RomanCounter>
+23|<TotalFilesCount_|<TotalFilesCount>
+23|<NonSelectedFilesCount_|<NonSelectedFilesCount>
+23|ExifVersion|ExifVersion
+23|ExifDateTimeOriginal|ExifDateTimeOriginal
+23|ExifDateTimeDigitized|ExifDateTimeDigitized
+23|ExifDateTime|ExifDateTime
+23|ExifCopyright|ExifCopyright
+23|ExifCompressedBitsPerPixel|ExifCompressedBitsPerPixel
+23|ExifBrightness|ExifBrightness
+23|ExifAperture|ExifAperture
+23|Pictures_Previewer|Pictures Previewer
+23|Search_for_files_in_favorites|Search for files in favorites
+23|Pictures_Information|Pictures Information
+23|Sounds_Information|Sounds Information
+23|Create_a_list_of_folders_manually|Create a list of folders manually
+23|CommansdForAdobeFonts|CommansdForAdobeFonts
+23|AfmVMusage|AfmVMusage
+23|AfmUniqueID|AfmUniqueID
+23|ExifMaxAperture|ExifMaxAperture
+23|ExifMake|ExifMake
+23|ExifISOSpeedRatings|ExifISOSpeedRatings
+23|ExifImageWidth|ExifImageWidth
+23|ExifImageHeight|ExifImageHeight
+23|ExifImageDescription|ExifImageDescription
+23|ExifFocalPlaneYResolution|ExifFocalPlaneYResolution
+23|ExifFocalPlaneXResolution|ExifFocalPlaneXResolution
+23|ExifFocalPlaneResolutionUnit|ExifFocalPlaneResolutionUnit
+23|ExifFocalLength|ExifFocalLength
+23|ExifFNumber|ExifFNumber
+23|ExifFlash|ExifFlash
+23|ExifFirmwareVersion|ExifFirmwareVersion
+23|ExifExposureTime|ExifExposureTime
+23|ExifExposureProgram|ExifExposureProgram
+23|ExifExposureBias|ExifExposureBias
+23|WmaTrack|WmaTrack
+23|WmaBitRate|WmaBitRate
+23|WmaDuration|WmaDuration
+23|WmaSampleRate|WmaSampleRate
+23|WmaChannelMode|WmaChannelMode
+23|PrBeforEx|PrBeforEx
+23|ExifYResolution|ExifYResolution
+23|ExifXResolution|ExifXResolution
+23|ExifWhiteBalance|ExifWhiteBalance
+23|ExifSubjectDistance|ExifSubjectDistance
+23|ExifShutterSpeed|ExifShutterSpeed
+23|ExifResolutionUnit|ExifResolutionUnit
+23|ExifRelatedSoundFile|ExifRelatedSoundFile
+23|ExifOrientation|ExifOrientation
+23|ExifModel|ExifModel
+23|ExifMeteringMode|ExifMeteringMode
+23|My_other_programs|My other programs
+23|Donation|Donation
+23|Commands_for_pictures|Commands for pictures
+23|For_WMA_files|For WMA files
+23|WmaYear|WmaYear
+23|WmaComment|WmaComment
+23|WmaGenre|WmaGenre
+23|WmaAlbum|WmaAlbum
+23|WmaArtist|WmaArtist
+23|WmaTitle|WmaTitle
